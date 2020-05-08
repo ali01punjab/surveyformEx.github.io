@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(115deg,rgba(58,58,158,0.8),rgba(136,136,206,0.7)),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+#main{
+    height:1420px;
+    width: 718px;
+    margin:auto;
+}
+#title,#description{
+    color:whitesmoke;
+    text-align:center;
+    margin-top: 50px;
+}
+#description{
+    margin-top: -17px;
+    font-size: 1.2rem;
+}
+#form{
+    font-weight: 400;
+    color: whitesmoke;
+    height: 1580px;
+    width: 718px;
+    background-color: #282747;
+    opacity: .8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 40px;
+}
+label{
+    font-size: 1.2rem;
+}
+input{
+    font-size: 1.1rem;
+    padding: 8px;
+    color: whitesmoke;
+}
+select{
+    font-size: 1.1rem;
+    padding: 9px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+select{
+    width: 99%;
+}
+label{
+    margin-top: 15px;
+}
+input[type="text"],input[type="email"],input[type="number"]
+{
+    width: 97%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+label,input,select,textarea{
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+input[type="radio"],input[type="checkbox"]
+{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+textarea{
+    font-size: 1.5rem;
+    height: 130px;
+    width: 98%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    resize: none;
+}
+input[type="submit"]{
+    width: 99%;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+    background-color: #37AF65;
+    outline: none;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: none;
+}
